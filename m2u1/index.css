@@ -1,0 +1,71 @@
+body {
+    padding: 20px;
+    margin: 0;
+    background-color: lightblue;
+    font-family:'Red Hat Display', sans-serif;
+}
+
+section{
+    background: rgb(173,216,230);
+    background: linear-gradient(90deg, rgba(173,216,230,1) 2%, rgba(138,178,231,0.7008928571428572) 16%, rgba(138,178,231,1) 79%, rgba(173,216,230,1) 100%);
+
+}
+.main-title-image{
+    display: flex;
+    justify-items: center;
+    align-items: baseline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin-right: auto;
+    font-family: 'Mukta', sans-serif;
+}
+h1,figure {
+    display: inline;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+ul, ol {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    font-size: 16px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+i.fas {
+    margin-right:5px;
+    font-size: 14px;
+  }
+
+.profile-section{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
